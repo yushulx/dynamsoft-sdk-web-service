@@ -17,7 +17,7 @@ pip install -r requirements.txt
     ```bash
     python app.py
     ```
-3. Test with curl commands:
+3. Test it with curl commands:
 
     ```bash
     # barcode
