@@ -1,12 +1,13 @@
 # Dynamsoft SDK Web Service
-The sample creates web APIs for Dynamsoft SDKs including Dynamsoft Barcode Reader, Dynamsoft Document Normalizer and Dynamsoft Label Recognizer.
+The sample creates web APIs for Dynamsoft SDKs including Dynamsoft Barcode Reader, Dynamsoft Document Normalizer and Dynamsoft Label Recognizer. 
+
 
 ## Installation
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+## Setup
 1. Apply for a [trial license](https://www.dynamsoft.com/customer/license/trialLicense) for Dynamsoft SDKs, and then set the license keys in `app.py`:
     
     ```python
@@ -17,7 +18,8 @@ pip install -r requirements.txt
     ```bash
     python app.py
     ```
-3. Test it with curl commands:
+## Usage
+- cURL commands:
 
     ```bash
     # barcode
@@ -29,3 +31,6 @@ pip install -r requirements.txt
     # document
     curl -X POST -F 'file=@./document.png' http://127.0.0.1:5000/api/document/rectify
     ```
+- Power Automate
+  
+  ![Power Automate with Dynamsoft SDK service](https://www.dynamsoft.com/codepool/img/2023/05/power-automate-dynamsoft-service.png)
