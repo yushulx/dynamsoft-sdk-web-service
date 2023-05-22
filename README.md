@@ -1,6 +1,7 @@
 # Dynamsoft SDK Web Service
 The sample creates web APIs for Dynamsoft SDKs including Dynamsoft Barcode Reader, Dynamsoft Document Normalizer and Dynamsoft Label Recognizer. 
 
+https://github.com/yushulx/dynamsoft-sdk-web-service/assets/2202306/01f40f3a-87cd-4f0e-b100-65b363b2832e
 
 ## Installation
 ```bash
